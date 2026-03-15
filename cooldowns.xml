@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<cooldowns>
+	<cooldownentry name="-- Health --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Bandage" defaultcooldown="0" cooldownbartype="Bandage" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Heal Potion" defaultcooldown="0" cooldownbartype="Regular" hue="48" hidewheninactive="True">
+		<trigger triggertype="OverheadMessage" duration="10" triggertext="Drinking heal!" />
+	</cooldownentry>
+	<cooldownentry name="Cure Potion" defaultcooldown="0" cooldownbartype="Regular" hue="48" hidewheninactive="True" />
+	<cooldownentry name="-- Utility --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Alert!" defaultcooldown="0" cooldownbartype="Regular" hue="38" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="10" triggertext="Now tracking:" />
+	</cooldownentry>
+	<cooldownentry name="World Save" defaultcooldown="0" cooldownbartype="Regular" hue="53" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="16" triggertext="The world will save in 15 seconds." />
+	</cooldownentry>
+	<cooldownentry name="Move" defaultcooldown="0.3" cooldownbartype="Walk" hue="1001" hidewheninactive="False" />
+	<cooldownentry name="Tunnel" defaultcooldown="0" cooldownbartype="Regular" hue="43" hidewheninactive="True">
+		<trigger triggertype="OverheadMessage" duration="300" triggertext="You tunnel into the earth." />
+	</cooldownentry>
+	<cooldownentry name="Heat of Battle" defaultcooldown="0" cooldownbartype="PvP" hue="33" hidewheninactive="True" />
+	<cooldownentry name="Ciminal" defaultcooldown="0" cooldownbartype="Criminal" hue="18" hidewheninactive="True" />
+	<cooldownentry name="Hunting" defaultcooldown="0" cooldownbartype="Regular" hue="18" hidewheninactive="True" />
+	<cooldownentry name="Rope" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Rogue Detected" defaultcooldown="0" cooldownbartype="Regular" hue="18" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="30" triggertext="Being perfectly rested, you shove something" />
+	</cooldownentry>
+	<cooldownentry name="Detect Hidden" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="10" triggertext="You search the area" />
+	</cooldownentry>
+	<cooldownentry name="DOOMED" defaultcooldown="0" cooldownbartype="Regular" hue="43" hidewheninactive="True" />
+	<cooldownentry name="Snacking" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="-- Melee --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Taunt" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="15" triggertext="Which creature do you wish to taunt?" />
+	</cooldownentry>
+	<cooldownentry name="Crossbow" defaultcooldown="0" cooldownbartype="WeaponSwing" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Bow" defaultcooldown="0" cooldownbartype="WeaponSwing" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Disarm" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="15" triggertext="You will now attempt to disarm your " />
+	</cooldownentry>
+	<cooldownentry name="Hamstring" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Explosion" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="15" triggertext="Where should I throw this potion?" />
+	</cooldownentry>
+	<cooldownentry name="-- Rogue --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Smoke Bomb" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Hiding" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="OverheadMessage" duration="10" triggertext="You have hidden yourself well" />
+		<trigger triggertype="OverheadMessage" duration="10" triggertext="You fail to hide." />
+	</cooldownentry>
+	<cooldownentry name="Stealth" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="10" triggertext="You begin to move quietly" />
+		<trigger triggertype="SysMessage" duration="10" triggertext="You fail in your attempt to move unnoticed." />
+	</cooldownentry>
+	<cooldownentry name="Stealing" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="5" triggertext="Which item will you attempt to steal?" />
+	</cooldownentry>
+	<cooldownentry name="Revealed" defaultcooldown="0" cooldownbartype="Regular" hue="43" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="10" triggertext="You have been revealed!" />
+	</cooldownentry>
+	<cooldownentry name="-- Trapper --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Detonate" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Setting Trap" defaultcooldown="0" cooldownbartype="Regular" hue="548" hidewheninactive="True" />
+	<cooldownentry name="-- Bardic --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Peacemaking" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="-- Fishing --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Fishing Spot" defaultcooldown="0" cooldownbartype="Regular" hue="93" hidewheninactive="True" />
+	<cooldownentry name="Spyglass" defaultcooldown="0" cooldownbartype="Regular" hue="93" hidewheninactive="True" />
+	<cooldownentry name="Fishing Net" defaultcooldown="0" cooldownbartype="Regular" hue="93" hidewheninactive="True" />
+	<cooldownentry name="-- Spells --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Meditate" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="10" triggertext="You enter a meditative trance" />
+	</cooldownentry>
+	<cooldownentry name="Reflection" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Mushroom" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Telekinesis" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Teleport" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="-- Strangelands --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Herbs" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Whetstone" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Harvesting" defaultcooldown="0" cooldownbartype="Regular" hue="98" hidewheninactive="True" />
+	<cooldownentry name="Explosion Keg" defaultcooldown="0" cooldownbartype="Regular" hue="42" hidewheninactive="True">
+		<trigger triggertype="OverheadMessage" duration="60" triggertext="Which supply container do vou wish to use this on?" />
+	</cooldownentry>
+	<cooldownentry name="-- Harvest --" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="No Harvest" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True">
+		<trigger triggertype="SysMessage" duration="2" triggertext="You do not see any harvestable resources nearby." />
+	</cooldownentry>
+	<cooldownentry name="No Tools" defaultcooldown="0" cooldownbartype="Regular" hue="18" hidewheninactive="True" />
+	<cooldownentry name="Harvest" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Activating Harvest" defaultcooldown="0" cooldownbartype="Regular" hue="68" hidewheninactive="True" />
+	<cooldownentry name="Spirit Speak" defaultcooldown="0" cooldownbartype="Regular" hue="1001" hidewheninactive="True" />
+	<cooldownentry name="Telekinis Self" defaultcooldown="0" cooldownbartype="Regular" hue="18" hidewheninactive="False">
+		<trigger triggertype="SysMessage" duration="30" triggertext="Your next explosion " />
+	</cooldownentry>
+</cooldowns>
