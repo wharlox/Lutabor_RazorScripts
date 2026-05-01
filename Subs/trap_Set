@@ -1,0 +1,5 @@
+// TRAP SET
+dclicktype '19821'
+getlabel backpack pingCheck 
+cooldown 'Setting Trap' 4600
+hotkey 'play script: Subs\Routing'
