@@ -1,0 +1,5 @@
+// TRAP REMOVAL
+if findtype 19821 ground -1 -1 2 as groundTrap
+    menu groundTrap 0
+endif
+hotkey 'play script: Subs\Routing'    

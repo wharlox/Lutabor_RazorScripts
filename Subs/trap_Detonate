@@ -1,0 +1,77 @@
+// TRAP DETONATE
+
+clearsysmsg 
+if name = 'a stranger' 
+    getlabel backpack pingCheck
+    dclicktype '29447'
+    getlabel backpack pingCheck 
+    if insysmsg 'You detonate a ground trap.'
+        if skill 'detecting hidden' <= 80      
+        overhead '80 detonate stranger'
+            cooldown 'Detonate' 35000  
+        elseif skill 'detecting hidden' <= 84      
+            overhead '84 detonate stranger'
+            cooldown 'Detonate' 34000  
+        elseif skill 'detecting hidden' <= 88      
+            overhead '88 detonate stranger'
+            cooldown 'Detonate' 33000                  
+        elseif skill 'detectng hidden' <= 92      
+            overhead '92 detonate stranger'
+        cooldown 'Detonate' 32000   
+        elseif skill 'detecting hidden' <= 96      
+            overhead '96 detonate stranger'
+            cooldown 'Detonate' 31000     
+        elseif skill 'detecting hidden' <= 100      
+            overhead '100 detonate stranger'
+            cooldown 'Detonate' 30000     
+        endif
+    endif
+    hotkey 'play script: Subs\Routing'    
+endif
+
+while rhandempty and not casting
+    if skill 'Fencing' >= 80    
+        if findtype 'kryss' backpack
+            dclicktype 'kryss' backpack
+            overhead 'Kryss'    
+            break
+        endif        
+    endif
+    if skill 'Mace Fighting' >= 80
+        if findtype 'flail' backpack
+            dclicktype 'flail' backpack
+            overhead 'Flail'    
+            break
+        endif     
+    endif
+    if skill 'Swordsmanship' >= 80
+        if findtype 'scimitar' backpack
+            dclicktype 'scimitar' backpack
+            overhead 'Scimitar'    
+            break
+        endif             
+    endif   
+    if skill 'Fishing' >= 80
+        if findtype 'harpoon' backpack
+            dclicktype 'harpoon' backpack
+            overhead 'Harpoon'    
+            break
+        endif             
+    endif    
+    if skill 'Wrestling' >= 80
+        if findtype 'caesti' backpack
+            dclicktype 'caesti' backpack
+            overhead 'Caesti'    
+            break
+        endif             
+    endif        
+    break 
+endwhile
+getlabel backpack pingCheck
+dclicktype '29447'
+getlabel backpack pingCheck
+if insysmsg 'You detonate a ground trap.'  
+    cooldown 'Detonate' 15100  
+endif  
+    
+hotkey 'play script: Advanced\_Master'

@@ -1,0 +1,61 @@
+// ALL KILL
+
+clearignore 
+clearsysmsg 
+target clear
+hotkey "Cancel Current Target"
+getlabel backpack pingCheck
+while not dead
+    hotkey 'next murderer player target'
+    getlabel backpack pingCheck
+    if not insysmsg 'No one matching that was found on your screen.'      
+        overhead '† Murderer †' 88 lasttarget 
+        getlabel backpack pingCheck   
+        say 'all kill'
+        getlabel backpack pingCheck
+        hotkey 'last target' 
+        break    
+    endif
+    hotkey 'next criminal player target'
+    getlabel backpack pingCheck
+    if not insysmsg 'No one matching that was found on your screen.'      
+        overhead '† Theif †' 88 lasttarget 
+        getlabel backpack pingCheck   
+        say 'all kill'
+        getlabel backpack pingCheck
+        hotkey 'last target' 
+        break    
+    endif  
+    hotkey 'next grey player target'   
+    getlabel backpack pingCheck
+    if not insysmsg 'No one matching that was found on your screen.'      
+        overhead '† Grey Player †' 88 lasttarget 
+        getlabel backpack pingCheck   
+        say 'all kill'
+        getlabel backpack pingCheck
+        hotkey 'last target' 
+        break    
+    endif      
+    hotkey 'next murderer monster target' 
+    getlabel backpack pingCheck
+    if not insysmsg 'No one matching that was found on your screen.'  
+        overhead '† Target †' 88 lasttarget 
+        getlabel backpack pingCheck   
+        say 'all kill'
+        getlabel backpack pingCheck
+        hotkey 'last target' 
+        break   
+    endif    
+    hotkey 'target closest grey monster' 
+    getlabel backpack pingCheck
+    if not insysmsg 'No one matching that was found on your screen.'  
+        overhead '† Target †' 88 lasttarget 
+        getlabel backpack pingCheck   
+        say 'all kill'
+        getlabel backpack pingCheck
+        hotkey 'last target' 
+        break   
+    endif
+    break   
+endwhile
+hotkey 'play script: Subs\Routing'
